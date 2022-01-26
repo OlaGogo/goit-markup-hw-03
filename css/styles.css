@@ -80,7 +80,6 @@ color: var(--logo-footer-color);
 }
 .logo-end {
     margin-right: 0;
-    margin-bottom: 20px;
 }
 /* -----------Навигация-------------- */
  .header {
@@ -302,6 +301,9 @@ color: var(--logo-footer-color);
 .footer-item:not(:last-child) {
     margin-bottom: 9px;
 }
+.address {
+    margin-top: 20px;
+}
 
 
 
@@ -353,17 +355,14 @@ margin-right: 8px;
      background: var(--white-color);
      border: 1px solid var(--frame-color);
      box-sizing: border-box;
-     width: 370px;
-     height: 110px;
+
   }
   .works {
       display: flex;
       margin-left: -30px;
       margin-bottom: -30px; 
       flex-wrap: wrap;
-      /* padding-top: 50px;
-      padding-bottom: 94px; ???*/
-
+    
   } 
   .works-item {
 width: calc(100% / 3 - 30px);
